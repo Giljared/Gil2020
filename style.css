@@ -1,0 +1,45 @@
+#{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+.s-m{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%;-50%;);
+
+}
+.s-m a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: aqua;
+    color: cadetblue;
+    margin: 0 3px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.s-m a:hover{
+    background: rgb(138, 138, 168);
+    }
+.s-m a i{
+    transition: 0.5s all;
+}
+.s-m a:hover->-i{
+    transform: scale(1.4) rotate(26deg);
+}
+.rodape{
+    text-align: center;
+    background-color: cornflowerblue;
+    
+    
+}
+
+
